@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    background-image: url(/img/Free\ Photo\ _\ White\ cloud\ on\ sky\ background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    border: 1px solid black;
+    width: 25%;
+    height: 30%;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.54);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border: none;
+}
+.input-weather, .btn{
+    margin-top: 20px;
+}
+
+.input-weather[type="text"] {
+    width: 180px;
+    padding: 5px; 
+    background-color: rgba(255, 255, 255, 0.54);
+    border: 1px solid #ccc;
+    border: none;
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    font-size: 16px; 
+    color: #333;
+  }
+  
+ 
+ .input-weather[type="text"]:focus {
+    outline: none;
+    
+  }
+
+.btn{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.54);
+    color: #94a3b8;
+    font-weight: 550;
+    border: none;
+    cursor: pointer;
+    
+
+}  
+
+.result{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #94a3b8;
+}
+
+
+ 
+
+.weather-app h2{
+    letter-spacing: 0.1rem;
+    font-size: 35px;
+    line-height: normal;
+}
+
+.weather-app p{
+    letter-spacing: 0.1rem;
+    
+}
+
+.weather-app h1{
+    font-size: 50px;
+    letter-spacing: 0.1rem;
+    
+}
+
+.icon{
+    width: 50px;
+}    
