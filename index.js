@@ -31,7 +31,7 @@ let getWeather = ()  => {
            `    
         })
         .catch(() => {
-            result.innerHTML = `<h3>City  not found</h3>`
+            result.innerHTML = `<h3>Country/City not found</h3>`
            })
     }
     
